@@ -15,7 +15,7 @@ public class HelloController {
   @RequestMapping("/")
   public String helloworld(){
     logger.debug("访问hello");
-    return "Hello world!";
+    return "Hello baby!";
   }
   
   @RequestMapping("/hello/{name}")
